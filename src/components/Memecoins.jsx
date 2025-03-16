@@ -1,13 +1,13 @@
 import React from 'react';
 import Sidebar from './Sidebar';
-import ChatInterface from './ChatInterface';
+import MemecoinsChat from './MemecoinsChat';
 
 const Memecoins = () => {
   return (
     <div className="flex pt-16">
       <Sidebar />
       <div className="ml-64 flex-1">
-        <ChatInterface agentType="Memecoins" />
+        <MemecoinsChat />
       </div>
     </div>
   );
