@@ -27,12 +27,12 @@ const Home = () => {
               <span className="text-[80px] font-['Press_Start_2P'] bg-black/80 text-yellow-200 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] 
                 transform hover:scale-105 transition-transform cursor-default
                 border-4 border-white px-4 py-2">
-                SHILL
+                Stack
               </span>
               <span className="text-[80px] font-['Press_Start_2P'] bg-black/80 text-blue-400 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]
                 transform hover:scale-105 transition-transform cursor-default
                 border-4 border-white/80 px-4 py-2">
-                TUBE
+                Social
               </span>
            
             </h1>

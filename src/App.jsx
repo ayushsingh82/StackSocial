@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chat" element={<ChatPage />} />
-          <Route path="/meme" element={<Memecoins />} />
+          <Route path="/memecoins" element={<Memecoins />} />
           <Route path="/nfts" element={<NFTS />} />
           <Route path="/stx" element={<Stx />} />
           <Route path="/stacks" element={<Stacks />} />

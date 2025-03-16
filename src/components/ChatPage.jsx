@@ -36,7 +36,7 @@ const ChatPage = () => {
       <div className="w-64 min-h-[calc(100vh-64px)] bg-gray-900 text-white fixed left-0 top-16">
         {/* Stack Twitter Section */}
         <div className="p-4 border-b border-gray-700">
-          <h3 className="text-lg font-bold mb-3 text-blue-400">Stack Twitter</h3>
+          <h3 className="text-lg font-bold mb-3 text-blue-400"><a href="/stacks"> Stack Twitter</a></h3>
           <div className="space-y-2">
        
           </div>
@@ -44,13 +44,13 @@ const ChatPage = () => {
 
         {/* $STX Tags Section */}
         <div className="p-4 border-b border-gray-700">
-          <h3 className="text-lg font-bold mb-3 text-green-400">$STX Tags</h3>
+          <h3 className="text-lg font-bold mb-3 text-green-400"><a href='/stx'>$STX Tags</a></h3>
       
         </div>
 
         {/* NFTs Section */}
         <div className="p-4 border-b border-gray-700">
-          <h3 className="text-lg font-bold mb-3 text-purple-400">NFTs</h3>
+          <h3 className="text-lg font-bold mb-3 text-purple-400"><a href='nfts'>NFTS</a></h3>
           <div className="space-y-2">
         
           </div>
@@ -58,7 +58,7 @@ const ChatPage = () => {
 
         {/* Memecoins Section */}
         <div className="p-4">
-          <h3 className="text-lg font-bold mb-3 text-yellow-400">Memecoins</h3>
+          <h3 className="text-lg font-bold mb-3 text-yellow-400"><a href='memecoins'>Memecoins</a></h3>
           <div className="space-y-2">
            
             <div className="bg-gray-800 p-2 rounded">
